@@ -54,7 +54,10 @@ As you are adding the detail, you comment the rest of line started with the plac
 Besides convenience in expressing, readers can understand your 'book' also more conveniently, and get to know the original thoughts instead of the formatted ones.
 
 
-中文阐释：（Explain in Chinese）
+
+* * *
+
+### 中文阐释：（Explain in Chinese）
 簡單說一下，就是經常我們寫代碼的時候需要寫pseudocode，或者描述一下期望的功能，然後繼續編碼；同樣地，我們讀代碼的時候，也經常需要把一大段代碼用它整體實現了什麼功能來理解，不考慮實現細節。有時候有些人在實現功能的時候為了代碼效率，不得不採用一些magic words的寫法，讓讀者讀得雲裡霧裡的，需要花很多時間來理解，所以我就希望，這些人在實現這樣magic words的時候、在實現一個功能塊的時候的時候，可以用到一種通用的、可以在任意位置（行頭、行間、行尾）注釋的注釋方法，並且實現標準。這就極大地方便了代碼閱讀——由於更精細（而不是更頻繁）的注釋，代碼閱讀效率得到提高；這還可以幫助有跳步思維習慣（這不好，因為顯然這些步驟都是不可或缺的）的程序員用自己喜歡的方式編程。
 注释倡议如下：
 未实现时，用 ___?"what you want here"___ 来占位，
